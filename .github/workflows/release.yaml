@@ -29,8 +29,8 @@ jobs:
           cp -r ./tmp ./code
           cd code
           pip install -r requirements.txt
-          python build.py --aliToken "${{ secrets.ALI_TOKEN }}" --biliCookie "${{ secrets.BILI_COOKIE}}"  --quarkCookie "${{ secrets.QUARK_COOKIE}}"
-          python build.py --aliToken "${{ secrets.ALI_TOKEN }}" --biliCookie "${{ secrets.BILI_COOKIE}}"  --quarkCookie "${{ secrets.QUARK_COOKIE}}" --is_18 True
+          python build.py --4143b66a121341dfa02a6c0d5f3142d2 "${{ secrets.ALI_TOKEN }}" --biliCookie "${{ secrets.BILI_COOKIE}}"  --quarkCookie "${{ secrets.QUARK_COOKIE}}"
+          python build.py --4143b66a121341dfa02a6c0d5f3142d2 "${{ secrets.ALI_TOKEN }}" --biliCookie "${{ secrets.BILI_COOKIE}}"  --quarkCookie "${{ secrets.QUARK_COOKIE}}" --is_18 True
 
       - name:  Commit JS Config files
         run: |
