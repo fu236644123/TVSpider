@@ -13,9 +13,9 @@ jobs:
       - name: Clone Base Repository
         uses: actions/checkout@v3
         with:
-          repository: ${{ secrets.GH_PATH}}
+          repository: ${{ fu236644123/TVSpider}}
           fetch-depth: 0
-          token: ${{ secrets.GH_TOKEN}}
+          token: ${{ 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}}
 
       - name: Clone TVSpider Repository
         uses: actions/checkout@v3
